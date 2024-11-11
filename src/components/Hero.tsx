@@ -2,7 +2,7 @@ import bgImage from "@/assets/images/bg1.jpg";
 
 const Hero = () => {
   return (
-    <div className="relative flex flex-col md:flex-row w-full bg-gray-100">
+    <div className="relative flex flex-col md:flex-row w-full bg-gray-100 lg:h-[calc(100vh-70px)]">
       {/* Left Side (Hero Image and Text)  */}
       <div
         className="relative w-full md:w-2/3 h-full bg-cover bg-center"
